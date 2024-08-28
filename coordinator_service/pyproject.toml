@@ -1,0 +1,23 @@
+[project]
+name = "coordinator_service"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "John Doe", email = "email@example.com"},
+]
+dependencies = [
+    "fastapi>=0.112.1",
+    "uvicorn>=0.30.6",
+    "pydantic>=2.8.2",
+    "httpx>=0.27.2",
+    "pika>=1.3.2",
+    "python-decouple>=3.8",
+    "newrelic>=9.13.0",
+]
+requires-python = "==3.10.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false

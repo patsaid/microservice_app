@@ -1,0 +1,26 @@
+[project]
+name = "auth_service"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Johnn Doe", email = "email@example.com"},
+]
+dependencies = [
+    "fastapi",
+    "pydantic",
+    "uvicorn",
+    "python-decouple",
+    "sqlalchemy",
+    "psycopg2-binary",
+    "python-jose>=3.3.0",
+    "python-jose[cryptography]>=3.3.0",
+    "bcrypt>=4.2.0",
+    "newrelic>=9.13.0",
+]
+requires-python = "==3.10.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
